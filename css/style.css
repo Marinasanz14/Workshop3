@@ -1,0 +1,29 @@
+body {
+    background-color: #89c2d9;
+}
+
+.welcome {
+    padding-top: 50px;
+    padding-left: 330px;
+}
+
+.title h3 {
+    margin-left: 250px;
+    margin-bottom: 30px;
+    color: #012a4a;
+}
+
+.description h5 {
+    margin-left: 13px;
+    color: #012a4a;
+}
+
+.apps {
+    padding-left: 330px;
+}
+
+.card {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 30px
+}

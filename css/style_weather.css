@@ -4,14 +4,25 @@ body {
 
 .controls {
     width: 500px;
+    margin-bottom: 25px
 }
 
 .btnObtenerC {
-    margin-left: 125px;
+    margin-left: 200px;
 }
 
 .btnVolver {
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.rojizo {
+    background-color: #dc3545;
+    color: #fff
+}
+
+.caja {
+    width: 18rem;
 }
 
 .sk-chase {

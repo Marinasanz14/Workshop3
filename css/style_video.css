@@ -1,3 +1,16 @@
 body {
     background-color: #c77dff;
 }
+
+.controls {
+    width: 500px;
+}
+
+.btnObtenerC {
+    margin-left: 200px;
+}
+
+.btnVolver {
+    margin-top: 20px;
+    margin-left: 5px;
+}

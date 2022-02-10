@@ -10,9 +10,12 @@
 </head>
 
 <body>
-    <div class="container controls">
-        <h1 id="titulo" class="text-4xl mt-5 text-white font-bold uppercase text-center">Weather App</h1>
-        <div class="max-w-lg mx-auto ">
+    <div class="container">
+        <button onclick="location.href='index.html' " type="button " class="btn btn-danger btnVolver" data-toggle="tooltip " data-placement="top " title="Volver a Index ">
+            Volver
+        </button>
+        <h1 id="titulo" class="text-4xl mt-4 text-white font-bold uppercase text-center">Weather App</h1>
+        <div class="max-w-lg mx-auto controls">
             <div class="p-6 mt-10">
                 <div id="resultado">
                     <p class="text-center text-white mt-6">Ingresa una ciudad y país, el resultado se mostrará aquí</p>
@@ -36,14 +39,11 @@
                     </select>
                 </div>
                 <button type="submit" class="btn btn-warning btnObtenerC">Obtener Clima</button>
-                <button onclick="location.href='index.html' " type="button " class="btn btn-primary btnVolver" data-toggle="tooltip " data-placement="top " title="Volver a Index ">
-                    Volver
-                </button>
             </form>
         </div>
     </div>
 
-    <script src="js/appclima.js "></script>
+    <script src="js/weatherApp.js "></script>
 </body>
 
 </html>

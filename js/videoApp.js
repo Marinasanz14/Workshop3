@@ -2,7 +2,7 @@ const divVideo = document.querySelector('.videoSection');
 
 function insertarVideo(opcion) {
 
-    Spinner(); //MUESTRA EL SPINNER
+    limpiarHTML();
 
     const mp4 = document.createElement("div");
     mp4.innerHTML = `
@@ -15,23 +15,4 @@ function limpiarHTML() {
     while (divVideo.firstChild) {
         divVideo.removeChild(divVideo.firstChild);
     }
-}
-
-function Spinner() {
-
-    limpiarHTML();
-
-    const divSpinner = document.createElement('div');
-    divSpinner.classList.add('sk-chase');
-
-    divSpinner.innerHTML = `
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    <div class="sk-chase-dot"></div>
-    `;
-
-    divVideo.appendChild(divSpinner);
 }

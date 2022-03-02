@@ -1,5 +1,5 @@
 body {
-    background-color: #89c2d9;
+    background-color: #ffccd5;
 }
 
 .welcome {
@@ -13,8 +13,8 @@ body {
     color: #012a4a;
 }
 
-.description h5 {
-    margin-left: 13px;
+.description h2 {
+    margin-left: 250px;
     color: #012a4a;
 }
 

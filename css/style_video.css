@@ -1,9 +1,14 @@
 body {
-    background-color: #c77dff;
+    background-color: #b7efc5;
 }
 
 .controls {
     width: 500px;
+}
+
+.controls h1 {
+    color: #012a4a;
+    margin-bottom: 30px;
 }
 
 .btnVolver {
